@@ -1,0 +1,27 @@
+/*!
+Theme Name: stylewp
+Theme URI: stylewp.net
+Author: Bojan Zlatanovic
+Author URI: stylewp.net
+Description: A blank starter theme for WordPress using WPGulp, Underscores, Bootstrap 4 and Font Awesome.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: stylewp
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, bootstrap
+*/
+
+/*--------------------------------------------------------------
+# Variables
+--------------------------------------------------------------*/
+@import "vars/vars";
+
+/*--------------------------------------------------------------
+# Bootstrap
+--------------------------------------------------------------*/
+@import "bootstrap";
+
+/*--------------------------------------------------------------
+# Theme Styles and Layout
+--------------------------------------------------------------*/
+@import "site/site";
