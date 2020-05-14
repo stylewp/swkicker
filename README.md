@@ -18,4 +18,21 @@ Here are some of the other more interesting things you'll find within this theme
 Getting Started
 ---------------
 
-You can use StyleWP as a starter theme for a WordPress theme you are building or simply use the theme as is. 
+You can use Swkicker as a starter theme for a WordPress theme you are building or simply use the theme as is. 
+
+== Dev Notes ==
+
+* Rename WpKicker to your project name
+* Before Running NMP Start command, remove not needed styles or scripts (Bootstrap, FontAwesome...)
+
+1.Change proxy urls inside gulp file
+2. Run NPM Install
+3. Run Gulp
+Done!
+
+* Gulp Zip to zip final version of theme
+
+**If needed run
+* Npm update
+* Npm Audit
+* npm install gulp-sass
